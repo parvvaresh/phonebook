@@ -21,4 +21,4 @@ WORKDIR /root/
 COPY --from=builder /app/taskmanager .
 
 # Default command -> run "list"
-CMD ["./taskmanager", "list"]
+CMD ["./taskmanager", "add ", "Learn GO", "2025-09-25", "Programming"]
